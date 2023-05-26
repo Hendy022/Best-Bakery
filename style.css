@@ -1,0 +1,599 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Section (1) */
+
+.bakery-home{
+    background-image: url(images/background-image.jpg);
+    background-size: 100% 100%;
+    overflow: hidden;
+    height: 130vh;
+    position: relative;
+}
+
+.bakery-home .bakery-home-image{
+    width: 60%;
+    height: auto;
+    text-align: left;
+}
+
+.bakery-home .home-navigationBar{
+    width: 40%;
+    height: auto;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.bakery-home .home-navigationBar .link-span{
+    display: block;
+    color: #E0DCD2;
+    text-align: center;
+    padding: 6.5% 2.5%;
+    float: left;
+}
+
+.bakery-home .home-navigationBar .link-span:hover{
+    background-color: transparent;
+}
+
+.bakery-home .home-navigationBar .home-span:hover{
+    scrollbar-highlight-color: transparent;
+    color: #E0C690;
+    font-family: 'Alegreya', serif;
+    font-size: 18px;
+}
+
+.bakery-home .float{
+    float: left;
+}
+
+.bakery-home .bakery-home-image .home-image{
+    width: 22%;
+    height: auto;
+    margin-top: 2.5%;
+    padding-left: 8.5%;
+    padding-bottom: 0.6%;
+}
+
+.bakery-home .home-description{
+    margin-top: 0%;
+}
+
+.bakery-home .home-description .section1-p-style1{
+    color: #FFFFFF;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 0.5%;
+}
+
+.bakery-home .home-description .section1-h1-style{
+    color: #FFFFFF;
+    font-family: 'Alegreya', serif;
+    font-size: 76px;
+    font-weight: 400;
+    margin-bottom: 1%;
+}
+
+.bakery-home .home-description .section1-p-style2{
+    color: #FFFFFF;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 190%;
+}
+
+.bakery-home .home-buttons .button-border{
+    color: #FFFFFF;
+    padding: 17px 29px;
+    margin-top: 2%;
+    border-radius: 7%;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.bakery-home .home-buttons .button1{
+    background-color: #8e7754;
+    border: 2px solid transparent;
+    margin-right: 0.6%;
+}
+
+.bakery-home .home-buttons .button2{
+    background-color: transparent;
+    border-color: #FFFFFF;
+}
+
+.bakery-home .text-align-center{
+    text-align: center;
+}
+
+.bakery-home .text-decoration{
+    text-decoration: none;
+}
+
+.bakery-home .mouse{
+    width: 90%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+}
+
+.bakery-home .mouse .mouse-image{
+    width: 3%;
+    margin-top: 9%;
+    border-radius: 50%;
+    height: auto;
+}
+
+.bakery-home .list{
+    width: 100%;
+    height: auto;
+    margin-top: 13%;
+    text-align: right;
+}
+
+.bakery-home .list .list-image{
+    width: 3%;
+    border-radius: 6%;
+    height: auto;
+}
+
+/* Section (2) */
+
+.who-we-are{
+    background-color: #FFFFFF;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+.who-we-are .who-we-are-image{
+    width: 41.5%;
+    height: auto;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.who-we-are .who-we-are-description{
+    width: 57.5%;
+    text-align: left;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.who-we-are .who-we-are-description .section2-margin{
+    margin-left: 19%;
+}
+
+.who-we-are .who-we-are-description .section2-h2-style{
+    margin-bottom: 3%;
+    font-family: 'Alegreya', serif;
+    color: #303030;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.who-we-are .who-we-are-description .section2-p-style{
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #686868;
+    line-height: 31.62px;
+    font-weight: 400;
+    font-size: 17px;
+    padding-right: 9%;
+}
+
+.who-we-are .who-we-are-image .section2-image{
+    width: 101%;
+    height: auto;
+    margin-left: 12.5%;
+}
+
+.who-we-are .who-we-are-description .icons{
+    list-style-type: none;
+    margin-top: 3.5%;
+    margin-left: 19%;
+    line-height: 48px;
+}
+
+.who-we-are .who-we-are-description .icons .icon-image{
+    width: 6.5%;
+    height: auto;
+    border: 1px solid #E7D7D7;
+    border-radius: 50%;
+}
+
+.who-we-are .who-we-are-description .icons .icon-description{
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #686868;
+    font-weight: 400;
+    font-size: 17px;
+    margin-left: 1.5%;
+    vertical-align: top;
+}
+
+/* Section (3) */
+
+.our-location{
+    background-color: #F8F8F8;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+.our-location .our-location-description{
+    width: 52%;
+    text-align: left;
+    margin-top: 7.5%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.our-location .our-location-image{
+    width: 47%;
+    height: auto;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.our-location .our-location-description .section3-margin{
+    margin-left: 9.5%;
+}
+
+.our-location .our-location-description .section3-h2-style{
+    margin-bottom: 3.6%;
+    font-family: 'Alegreya', serif;
+    color: #303030;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.our-location .our-location-description .section3-p-style{
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #686868;
+    line-height: 31.62px;
+    font-weight: 400;
+    font-size: 17px;
+    padding-right: 10%;
+}
+
+.our-location .our-location-description .p-margin{
+    margin-bottom: 2.7%;
+}
+
+.our-location .our-location-image .section3-image{
+    width: 91%;
+    height: auto;
+    margin-left: 1%;
+}
+
+/* Section (4) */
+
+.our-baking{
+    background-color: #FFFFFF;
+    padding: 6% 3.7% 6% 3.7%;
+    overflow: hidden;
+}
+
+.our-baking .section4-text-align{
+    text-align: center;
+}
+
+.our-baking .our-baking-menu{
+    width: 33.3333333%;
+    float: left;
+}
+
+.our-baking .section4-image{
+    width: 90.5%;
+    height: auto;
+    margin-bottom: 7%;
+    border-radius: 0%;
+}
+
+.our-baking .our-baking-title .section4-h3-style{
+    margin-bottom: 1%;
+    color: #303030;
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.our-baking .our-baking-title .section4-p-style1{
+    margin-bottom: 4.7%;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #888888;
+    line-height: 31.62px;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.our-baking .our-baking-menu .section4-h4-style{
+    margin-bottom: 3.5%;
+    color: #303030;
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.our-baking .our-baking-menu .section4-p-style2{
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #686868;
+    line-height: 31.62px;
+    font-weight: 400;
+    font-size: 17px;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+/* Section (5) */
+
+.contact-information{
+    background-color: #F8F8F8;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    overflow: hidden;
+}
+
+.contact-information .contact-information-description{
+    width: 52%;
+    text-align: left;
+    margin-top: 1%;
+    display: inline-block;
+}
+
+.contact-information .contact-information-image{
+    width: 48%;
+    height: auto;
+    display: inline-block;
+}
+
+.contact-information .float-left{
+    float: left;
+}
+
+.contact-information .contact-information-description .section5-margin-left{
+    margin-left: 9.5%;
+}
+
+.contact-information .contact-information-description .section5-p-margin-top-bottom{
+    margin-top: 4.5%;
+    margin-bottom: 5%;
+}
+
+.contact-information .contact-information-description .section5-h2-style{
+    margin-bottom: 3.6%;
+    font-family: 'Alegreya', serif;
+    color: #303030;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.contact-information .contact-information-description .section5-p-style{
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #686868;
+    line-height: 31.62px;
+    font-weight: 400;
+    font-size: 17px;
+    padding-right: 10%;
+    margin-bottom: 2.7%;
+}
+
+.contact-information .contact-information-image .section5-image{
+    width: 87%;
+    height: auto;
+    margin-left: 2%;
+}
+
+.contact-information .contact-information-description .contact-details{
+    list-style-type: none;
+    margin-top: 3.5%;
+    margin-left: 9.5%;
+    line-height: 48px;
+}
+
+.contact-information .contact-information-description .contact-details .contact-details-image-description .contact-details-image{
+    width: 5.7%;
+    height: auto;
+    margin-bottom: 1%;
+    background-color: #8E7754;
+    border: 1px solid #E7D7D7;
+    border-radius: 50%;
+}
+
+.contact-information .contact-information-description .contact-details .contact-details-image-description .contact-details-description{
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #686868;
+    font-weight: 400;
+    font-size: 17px;
+    margin-left: 1.5%;
+    line-height: 37px;
+    vertical-align: top;
+}
+
+/* Section (6) */
+
+.about-us-section{
+    background-color: #403D38;
+    padding: 3.6% 2.5% 4.2% 5%;
+    overflow: hidden;
+}
+
+.about-us-section .about-us-description .about-us-ul .about-us-li .border1{
+    background-color: #474646;
+    width: 99%;
+    height: 0.1px;
+    margin: auto;
+}
+
+.about-us-section .about-us-description .about-us-ul .about-us-li .border2{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-right: 11%;
+}
+
+.about-us-section .about-us-description .about-us-ul .about-us-li .border-margin-top{
+    margin-top: 8.5%;
+}
+
+.about-us-section .about-us-description .p-margin-right{
+    margin-top: 8.5%;
+    margin-right: 0.5%;
+}
+
+.about-us-section .about-us-description{
+    width: 25%;
+    height: auto;
+    text-align: left;
+    margin-top: 1%;
+    float: left;
+}
+
+.about-us-section .about-us-description .section6-h4-style{
+    margin-bottom: 6%;
+    font-family: 'Alegreya', serif;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.about-us-section .about-us-description .h4-margin-left{
+    margin-left: 2%;
+}
+
+.about-us-section .about-us-description .section6-description-style{
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #969696;
+    line-height: 31.62px;
+    font-weight: 400;
+    font-size: 16px;
+    padding-right: 8%;
+    margin-bottom: 2.7%;
+}
+
+.about-us-section .about-us-description .section6-margin-bottom{
+    margin-bottom: 6%;
+}
+
+.about-us-section .about-us-description .about-us-ul{
+    list-style-type: none;
+    margin-top: 3.5%;
+    line-height: 48px;
+}
+
+.about-us-section .about-us-description .about-us-ul .about-us-li .line-height{
+    line-height: 80%;
+}
+
+.about-us-section .about-us-description .about-us-ul .about-us-li{
+    margin-right: 8%;
+}
+
+.about-us-section .about-us-description .about-us-ul .about-us-li .about-us-image{
+    width: 6%;
+    height: auto;
+    margin-top: 5.5%;
+    margin-bottom: 1%;
+    border: 0%;
+    border-radius: 0%;
+    vertical-align: top;
+}
+
+.about-us-section .about-us-description .about-us-ul .about-us-li .about-us-img{
+    width: 11%;
+    height: auto;
+    margin-top: 3%;
+    border: 0%;
+    border-radius: 0%;
+    vertical-align: top;
+}
+
+.about-us-section .background-image{
+    width: 22%;
+    height: auto;
+    position: relative;
+}
+
+.about-us-section .background-image::before{
+    content: '';
+    background-image: url(images/contact-details-map.png);
+    background-repeat: no-repeat;
+    background-position: 100% 67%;
+    background-size: contain;
+    position: absolute;
+    inset: 0;
+    opacity: 0.11;
+}
+
+.about-us-section .about-us-description .isolation{
+    isolation: isolate;
+    text-decoration: none;
+}
+
+.about-us-section .about-us-description .about-us-ul .about-us-li .a-color{
+    color: #A9A9A9;
+}
+
+/* Section (7) */
+
+.bakery-section{
+    background-color: #353330;
+    padding-top: 4.5%;
+    padding-bottom: 0.6%;
+}
+
+.bakery-section .bakery-image-description{
+    width: 90%;
+    height: auto;
+}
+
+.bakery-section .bakery-image-description .bakery-image{
+    width: 29%;
+    height: auto;
+    margin-bottom: 2.4%;
+}
+
+.bakery-section .bakery-image-description .bakery-description{
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #777777;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.bakery-section .bakery-link{
+    margin-top: 1%;
+    width: 90%;
+    height: auto;
+}
+
+.bakery-section .margin-text-align{
+    margin: auto;
+    text-align: center;
+}
+
+.bakery-section .bakery-link .image{
+    width: 3.1%;
+    height: auto;
+    padding-bottom: 0.3%;
+    padding-left: 0.1%;
+    padding-right: 0.1%;
+    margin-top: 2.3%;
+    margin-left: 0.4%;
+    border: 0%;
+    border-radius: 50%;
+    background-color: #484540;
+}
+
+.bakery-section .bakery-link .link-image{
+    text-decoration: none;
+}
+
+.bakery-section .arrow .arrow-image{
+    width: 3.4%;
+    height: auto;
+    margin-left: 96.1%;
+    border: 0%;
+    border-radius: 50%;
+}
